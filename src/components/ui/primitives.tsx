@@ -5,6 +5,7 @@ import { useEffect, useRef, useState} from "react";
 import { cn, formatPrice } from "@/lib/utils";
 import { site } from "@/lib/site";
 import { SpinnerIcon, ChevronRightIcon } from "./icons";
+import React, { ButtonHTMLAttributes ,ReactNode } from 'react';
 
 /* ——— Логотип ——— */
 export function LogoMark({ className, size = 40 }: { className?: string; size?: number }) {
